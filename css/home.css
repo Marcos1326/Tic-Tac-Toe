@@ -12,10 +12,6 @@
 /* Txt home */
 
 /* Boton inicio juego */
-.row-botn-home{
-
-}
-
 .col-btn{
     height: 25vh;
 }
@@ -38,3 +34,10 @@
     border: 2px solid black;
 }
 /* Boton inicio juego */
+
+/* Troll  */
+
+#troll{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,15 @@
+/* Container principal */
+.container-troll{
+    height: 100vh;
+    width: 100%;
+}
+
+/* Txt troll  */
+.col-troll{
+    height: 80vh;
+}
+
+/* Boton home */
+.col-troll2{
+    height: 20vh;
+}

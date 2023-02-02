@@ -11,11 +11,55 @@
     rel="stylesheet" 
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
     crossorigin="anonymous">
+    <!-- Enlace font google  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
     <!-- Enlaces CSS propios -->
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/player.css">
 </head>
 <body>
+    <!-- Container principal -->
+    <div class="container-fluid container-players">
+        <!-- Cabecera (nombre juego) + enlace a home -->
+        <div class="row row-cabecera">
+            <div class="col col-titulo d-flex justify-content-center align-items-center"><a href="../index.html" class="enlace-home" >Tic Tac Toe</a></div>
+        </div>
+        <div class="row row-cabecera">
+            <div class="col col-selector d-flex justify-content-center align-items-center fs-4">Elige personaje</div>
+        </div>
+        <!-- Imagen personajes y boton inicio juego + imagen/nombre/check P1  -->
+        <div class="row row-personajes">
+            <!-- Icono player 1 -->
+            <div class="col col-img-player1 d-flex justify-content-center align-items-center">p1 icon</div>
+            <!-- Nombre player 1 -->
+            <div class="col col-namep1 d-flex justify-content-center align-items-center">
+                    <input type="text" class="form-control" id="inputPassword2" placeholder="Nombre">
+            </div>
+            <!-- Boton check player 1 -->
+            <div class="col col-checkp1 d-flex justify-content-center align-items-center">
+                <button type="submit" class="btn btn-warning ">listo</button>
+            </div>
+        </div>
+        <!-- Nombre jugadores y boton check + imagen/nombre/check P2 -->
+        <div class="row row-personajes row-botones-y-txt">
+            <!-- Icono player 2 -->
+            <div class="col col-player2 d-flex justify-content-center align-items-center">p2 icon</div>
+            <!-- Nombre player 2 -->
+            <div class="col col-namep2 d-flex justify-content-center align-items-center">
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Nombre">
+            </div>
+            <!-- Boton check player 2 -->
+            <div class="col col-checkp2 d-flex justify-content-center align-items-center">
+                <button type="submit" class="btn btn-warning ">listo</button>
+            </div>
+        </div>
+        <!-- Boton inicio de juego  -->
+        <div class="row row-cabecera">
+            <div class="col col-btn-inicio d-flex justify-content-center align-items-center">
+                <a href="./game.html"><button type="button" class="btn btn-warning boton-start fs-2 disabled">Start</button></a>
+            </div>
+        </div>
+    </div>
     <!-- Scripts propios -->
     <script src="../js/player.js"></script>
     <!-- Scripts propios -->

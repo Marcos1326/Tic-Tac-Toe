@@ -1,0 +1,79 @@
+/* Container principal */
+.container-players{
+    height: 100vh;
+    width: 100%;
+}
+
+/* Cabecera (nombre juego) */
+.col-titulo{
+    height: 10vh;
+    font-size: 40px;
+}
+
+.enlace-home{
+    text-decoration: none;
+    color: black;
+}
+
+/* Txt selector players  */
+.col-selector{
+    height: 10vh;
+}
+
+/* Imagen personajes y boton inicio juego */
+.row-personajes{
+    height: 30vh;
+}
+
+/* Player 1 */
+.col-img-player1{
+
+}
+
+.col-namep1{
+    
+}
+
+.col-checkp1{
+
+}
+
+/* Player 2 */
+.col-img-player2{
+
+}
+
+.namep2{
+
+}
+
+.col-checkp2{
+
+}
+
+/* Boton home */
+.col-btn-inicio{
+    height: 20vh;
+}
+
+/* boton  */
+.boton-start{
+    width: 30vw;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+/* hover del boton  */
+.boton-start:hover{
+    background-color: black;
+    width: 30vw;
+    border-radius: 50px;
+    color: white;
+    border: 2px solid black;
+}
+/* Boton inicio juego */
+
+/* Nombre jugadores y boton check + vuelta home */
+.row-botones-y-txt{
+
+}
