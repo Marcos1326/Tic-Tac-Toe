@@ -1,0 +1,40 @@
+/* Container principal */
+.container-home{
+    height: 100vh;
+    width: 100%;
+}
+
+/* Txt home */
+.col-txt{
+    height: 70vh;
+    font-size: 100px;
+}
+/* Txt home */
+
+/* Boton inicio juego */
+.row-botn-home{
+
+}
+
+.col-btn{
+    height: 25vh;
+}
+
+/* boton  */
+.boton-start{
+    height: 12vh;
+    width: 30vw;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+/* hover del boton  */
+.boton-start:hover{
+    background-color: black;
+    height: 12vh;
+    width: 30vw;
+    border-radius: 50px;
+    color: white;
+    border: 2px solid black;
+}
+/* Boton inicio juego */
