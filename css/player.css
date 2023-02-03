@@ -25,17 +25,27 @@
     height: 30vh;
 }
 
-/* Player 1 */
-.col-img-player1{
+/* img personajes  */
+.img-player{
+    height: 20vh;
+    width: 30vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+/* Boton listo  */
+.col-check{
+    border: 2px solid black;
+}
+
+/* Player 1 */
+.rex{
+    background-image: url(../img/trex.png);
 }
 
 .col-namep1{
     
-}
-
-.col-checkp1{
-
 }
 
 /* Player 2 */
@@ -43,11 +53,11 @@
 
 }
 
-.namep2{
-
+.raptor{
+    background-image: url(../img/raptor.png);
 }
 
-.col-checkp2{
+.namep2{
 
 }
 
