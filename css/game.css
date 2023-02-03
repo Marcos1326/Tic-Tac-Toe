@@ -1,0 +1,63 @@
+/* Cabecera (nombre juego) */
+.col-titulo{
+    height: 10vh;
+    font-size: 40px;
+}
+
+.enlace-home{
+    text-decoration: none;
+    color: black;
+}
+
+/* Tablero  */
+.col-tablero{
+    height: 60vh;
+}
+
+.tablero{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr ;
+    background-color: rgb(5, 115, 119);
+    height: 320px;
+    width: 320px;
+    border: 1px solid black;
+}
+
+.casillas{
+    border: 1px solid black;
+}
+
+/* Players */
+.col-playerName{
+    height: 15vh;
+}
+
+/* Imagenes trex y raptor  */
+.img-player{
+    height: 15vh;
+    width: 30vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Nombres player  */
+.nombre{
+    height: 100%;
+}
+
+/* Turnos player  */
+.turnos{
+    height: 100%;
+}
+
+/* Player 1 */
+.rex{
+    background-image: url(../img/trex.png);
+}
+
+/* Player 2 */
+.raptor{
+    background-image: url(../img/raptor.png);
+}

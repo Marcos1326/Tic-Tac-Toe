@@ -1,9 +1,3 @@
-/* Container principal */
-.container-players{
-    height: 100vh;
-    width: 100%;
-}
-
 /* Cabecera (nombre juego) */
 .col-titulo{
     height: 10vh;

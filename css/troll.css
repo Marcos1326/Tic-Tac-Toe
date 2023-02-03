@@ -6,10 +6,23 @@
 
 /* Txt troll  */
 .col-troll{
-    height: 80vh;
+    height: 40vh;
 }
 
 /* Boton home */
-.col-troll2{
+.col-troll3{
     height: 20vh;
+}
+
+/* imagenes raptor y trex */
+.col-troll2{
+    height: 40vh;
+}
+
+#raptor{
+    width: 40vw;
+}
+
+#trex{
+    width: 40vw;
 }

@@ -3,3 +3,9 @@ body{
     font-family: Pacifico;
     color: black;
 }
+
+/* Container principal */
+.container-tictactoe{
+    height: 100vh;
+    width: 100%;
+}
