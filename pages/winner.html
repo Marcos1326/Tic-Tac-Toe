@@ -18,7 +18,37 @@
     <link rel="stylesheet" href="../css/winner.css">
 </head>
 <body>
-
+    <!-- Container principal  -->
+    <div class="container-fluid container-winner">
+        <!-- Titulo juego + enlace home  -->
+        <div class="row row-cabecera">
+            <div class="col col-titulo d-flex justify-content-center align-items-center"><a href="../index.html" class="enlace-home" >Tic Tac Toe</a></div>
+        </div>
+        <!-- Txt winner chicken  -->
+        <div class="row row-txt-winner">
+            <div class="col col-txt-winner text-center d-flex justify-content-center align-items-center">Winner Winner Chicken Dinner</div>
+        </div>
+        <!-- Player x win  -->
+        <div class="row row-player-win">
+            <!-- Trex img  -->
+            <div class="col col-player-win d-flex justify-content-center align-items-center">
+                <img src="../img/trex.png" id="trex">
+            </div>
+            <!-- Nombre player win  -->
+            <div class="col col-player-win d-flex justify-content-center align-items-center fs-3 text-center">Player x win</div>
+            <!-- Raptor img  -->
+            <div class="col col-player-win d-flex justify-content-center align-items-center">
+                <img src="../img/raptor.png" id="raptor">
+            </div>
+        </div>
+        <!-- Btn repeat y home  -->
+        <div class="row row-btn-home">
+            <div class="col col-btn-home d-flex justify-content-center align-items-center">
+                <a href="..//index.html"><button type="button" class="btn btn-warning boton-start fs-4">Home</button></a>
+                <a href="./player.html"><button type="button" class="btn btn-warning boton-start">Emepezar otra</button></a>
+            </div>
+        </div>
+    </div>
     <!-- Scripts propios -->
     <script src="../js/winner.js"></script>
     <!-- Scripts propios -->

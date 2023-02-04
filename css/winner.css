@@ -1,0 +1,46 @@
+/* Container principal */
+.container-winner{
+    height: 100vh;
+}
+
+/* Titulo juego y enlace a home  */
+.col-titulo{
+    height: 10vh;
+    font-size: 40px;
+}
+
+.enlace-home{
+    text-decoration: none;
+    color: black;
+}
+
+/* winner winner chicken dinner  */
+.col-txt-winner{
+    height:40vh;
+    font-size: 40px;
+}
+
+/* player x win  */
+.col-player-win{
+    height: 20vh;
+}
+
+#raptor{
+    width: 20vw;
+}
+
+#trex{
+    width: 20vw;
+}
+
+/* bnt repeat - home */
+.col-btn-home{
+    height: 30vh;
+    gap: 20px;
+}
+
+.boton-start{
+    height: 10vh;
+    width: 30vw;
+    border: 2px solid black;
+}
