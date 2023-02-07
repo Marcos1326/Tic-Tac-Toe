@@ -1,6 +1,10 @@
 // Java Script Juego
 
 //Turnos player 1 y 2
+let tablero = Array.from(document.getElementsByClassName("casillas"));
+
+let turno = true;
+
 let turnoP1 = 3;
 let turnoP2 = 3;
 
