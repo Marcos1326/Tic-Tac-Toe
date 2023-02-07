@@ -11,7 +11,7 @@
 
 /* Tablero  */
 .col-tablero{
-    height: 60vh;
+    height: 50vh;
 }
 
 .tablero{
@@ -19,8 +19,8 @@
     grid-template-columns:1fr 1fr 1fr ;
     grid-template-rows:1fr 1fr 1fr ;
     background-color: rgb(5, 115, 119);
-    height: 320px;
-    width: 320px;
+    height: 50vh;
+    width: 50vh;
     border: 1px solid black;
 }
 
@@ -28,14 +28,9 @@
     border: 1px solid black;
 }
 
-/* Players */
-.col-playerName{
-    height: 15vh;
-}
-
 /* Imagenes trex y raptor  */
 .img-player{
-    height: 15vh;
+    height: 20vh;
     width: 30vw;
     background-position: center;
     background-size: cover;
@@ -55,9 +50,11 @@
 /* Player 1 */
 .rex{
     background-image: url(../img/trex.png);
+    background-size: contain;
 }
 
 /* Player 2 */
 .raptor{
     background-image: url(../img/raptor.png);
+    background-size: contain;
 }

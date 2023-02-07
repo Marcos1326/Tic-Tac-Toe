@@ -14,15 +14,8 @@
     height: 20vh;
 }
 
-/* imagenes raptor y trex */
-.col-troll2{
-    height: 40vh;
-}
-
-#raptor{
-    width: 40vw;
-}
-
-#trex{
-    width: 40vw;
+/* boton  */
+.boton-start{
+    border-radius: 50px;
+    border: 2px solid black;
 }

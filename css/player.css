@@ -66,18 +66,3 @@
     border-radius: 50px;
     border: 2px solid black;
 }
-
-/* hover del boton  */
-.boton-start:hover{
-    background-color: black;
-    width: 30vw;
-    border-radius: 50px;
-    color: white;
-    border: 2px solid black;
-}
-/* Boton inicio juego */
-
-/* Nombre jugadores y boton check + vuelta home */
-.row-botones-y-txt{
-
-}
