@@ -18,14 +18,30 @@
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
     grid-template-rows:1fr 1fr 1fr ;
-    background-color: rgb(5, 115, 119);
+    background-color: black;
     height: 50vh;
     width: 50vh;
-    border: 1px solid black;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 .casillas{
-    border: 1px solid black;
+    background-color: rgb(5, 115, 119);
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.casillas:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+@media (max-width: 992px){
+    .casillas{
+        margin: 2px;
+        border: 2px solid black;
+    }
 }
 
 /* Imagenes trex y raptor  */

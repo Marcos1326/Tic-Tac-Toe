@@ -1,5 +1,5 @@
 // Java Script seleccion de jugadores
-
+const Saveplayers = () => {
 //Guardado nombre Player 1
 let botonP1 = document.getElementById("botonP1");
 botonP1.addEventListener("click", () =>
@@ -21,3 +21,5 @@ let inputNombre2 = document.getElementById("Player2");
 let nombre2;
 inputNombre2.addEventListener("input", () => (nombre2 = inputNombre2.value));
 console.log(nombre2);
+
+};
