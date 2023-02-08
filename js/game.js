@@ -1,5 +1,12 @@
 // Java Script Juego
 
+let player1Name ="";
+let player2Name = "";
+
+if(Player1 === ""){
+    player1Name = sessionStorage.getItem("player-1")
+}
+
 //Turnos player 1 y 2
 let tablero = Array.from(document.getElementsByClassName("casillas"));
 
@@ -33,6 +40,9 @@ tablero.map(
         })
     }
 );
+
+//combinacion ganadora
+
 
 let combinacionGanadora=[
     [0, 1, 2],

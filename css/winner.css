@@ -36,11 +36,23 @@
 /* bnt repeat - home */
 .col-btn-home{
     height: 30vh;
-    gap: 20px;
+    gap: 40px;
 }
 
 .boton-start{
     height: 10vh;
     width: 30vw;
     border: 2px solid black;
+}
+.boton-start:hover{
+    scale: 1.1;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+
+@media (min-width: 992px){
+    .boton-start{
+        height: 10vh;
+        width: 15vw;
+    }
 }

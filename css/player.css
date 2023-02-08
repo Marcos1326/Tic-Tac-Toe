@@ -29,7 +29,30 @@
 }
 
 /* Boton listo  */
-.col-check{
+.nameImput{
+    border: 2px solid black;
+}
+
+@media(min-width: 920px){
+    .nameImput{
+        height: 6vh;
+        width: 40vw;
+    }
+
+    .col-check-btn{
+        width: 20vw;
+        height: 6vh;
+        
+    }
+}
+
+.col-check-btn{
+    border: 2px solid black;
+}
+
+.col-check-btn:hover{
+    scale: 1.1;
+    transition: 0.3s;
     border: 2px solid black;
 }
 
@@ -38,22 +61,11 @@
     background-image: url(../img/trex.png);
 }
 
-.col-namep1{
-    
-}
-
 /* Player 2 */
-.col-img-player2{
-
-}
-
 .raptor{
     background-image: url(../img/raptor.png);
 }
 
-.namep2{
-
-}
 
 /* Boton home */
 .col-btn-inicio{
@@ -64,5 +76,11 @@
 .boton-start{
     width: 30vw;
     border-radius: 50px;
+    border: 2px solid black;
+}
+
+.boton-start:hover{
+    scale: 1.1;
+    transition: 0.3s;
     border: 2px solid black;
 }
