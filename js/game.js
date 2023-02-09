@@ -4,7 +4,7 @@ let player1Name ="";
 let player2Name = "";
 
 if(Player1 === ""){
-    player1Name = sessionStorage.getItem("player-1")
+    player1Name = sessionStorage.getItem("player 1")
 }
 
 //Turnos player 1 y 2
@@ -34,7 +34,7 @@ tablero.map(
                 comprueboGanador();
                 
                 console.log(celda.id);
-                //cambio de turno
+
                 turno = !turno;
             }
         })
