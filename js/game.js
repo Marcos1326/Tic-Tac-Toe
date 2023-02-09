@@ -1,11 +1,10 @@
 // Java Script Juego
 
-let player1Name ="";
-let player2Name = "";
 
-if(Player1 === ""){
-    player1Name = sessionStorage.getItem("player 1")
-}
+document.getElementById("Player1").innerHTML = sessionStorage.getItem("player-1");
+document.getElementById("Player2").innerHTML = sessionStorage.getItem("player-2");
+
+
 
 //Turnos player 1 y 2
 let tablero = Array.from(document.getElementsByClassName("casillas"));
