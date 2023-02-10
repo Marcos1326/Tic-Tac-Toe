@@ -14,11 +14,9 @@ let turno = true;
 let turnoP1 = 3;
 let turnoP2 = 3;
 
-let miTablero = ["","","","","","","","",""];
 
-const comprueboGanador = () => {
-    console.log(miTablero);
-}
+//Tablero
+let miTablero = ["","","","","","","","",""];
 
 tablero.map(
     (celda)=>{
@@ -27,13 +25,9 @@ tablero.map(
                 celda.innerHTML = (turno) ? "X" : "O";
                 
                 (turno) ? turnoP1-- : turnoP2--;
-
                 miTablero[celda.id] = (turno) ? "X" : "O";
-
                 comprueboGanador();
                 
-                console.log(celda.id);
-
                 turno = !turno;
             }
         })
@@ -41,11 +35,9 @@ tablero.map(
 );
 
 //combinacion ganadora
-
-
 let combinacionGanadora=[
-    [0, 1, 2],
-    [3, 4, 5],
+    [0, 1, 2], //posicion 0 
+    [3, 4, 5], //posicion 1
     [6, 7, 8],
     [0, 3, 6],
     [1, 4, 7],
@@ -53,3 +45,62 @@ let combinacionGanadora=[
     [0, 4, 8],
     [2, 4, 6]
 ];
+
+
+const comprueboGanador = () => {
+
+//primera combinacion ganadora 1a fila 
+if ((miTablero[combinacionGanadora[0][0]] === "X") && (miTablero[combinacionGanadora[0][1]] === "X") && (miTablero[combinacionGanadora[0][2]] === "X")){
+    window.location.href= "../pages/winner.html"
+//primera combinacion ganadora 1a fila 
+} else if  ((miTablero[combinacionGanadora[0][0]] === "O") && (miTablero[combinacionGanadora[0][1]] === "O") && (miTablero[combinacionGanadora[0][2]] === "O")){
+    window.location.href= "../pages/winner.html"
+    
+//Segunda combinacion ganadora 2a fila
+} else if  ((miTablero[combinacionGanadora[1][0]] === "X") && (miTablero[combinacionGanadora[1][1]] === "X") && (miTablero[combinacionGanadora[1][2]] === "X")){
+    window.location.href= "../pages/winner.html"
+//Segunda combinacion ganadora 2a fila
+} else if  ((miTablero[combinacionGanadora[1][0]] === "O") && (miTablero[combinacionGanadora[1][1]] === "O") && (miTablero[combinacionGanadora[1][2]] === "O")){
+        window.location.href= "../pages/winner.html"
+    
+//Tercera combinacion ganadora 3a fila
+} else if  ((miTablero[combinacionGanadora[2][0]] === "X") && (miTablero[combinacionGanadora[2][1]] === "X") && (miTablero[combinacionGanadora[2][2]] === "X")){
+    window.location.href= "../pages/winner.html"
+//Tercera combinacion ganadora 3a fila
+}  else if  ((miTablero[combinacionGanadora[2][0]] === "O") && (miTablero[combinacionGanadora[2][1]] === "O") && (miTablero[combinacionGanadora[2][2]] === "O")){
+    window.location.href= "../pages/winner.html"
+    
+//Cuarta combinacion ganadora 1a columna
+}  else if  ((miTablero[combinacionGanadora[3][0]] === "X") && (miTablero[combinacionGanadora[3][1]] === "X") && (miTablero[combinacionGanadora[3][2]] === "X")){
+    window.location.href= "../pages/winner.html"
+//Cuarta combinacion ganadora 1a columna
+} else if  ((miTablero[combinacionGanadora[3][0]] === "O") && (miTablero[combinacionGanadora[3][1]] === "O") && (miTablero[combinacionGanadora[3][2]] === "O")){
+    window.location.href= "../pages/winner.html"
+
+//Cuarta combinacion ganadora 2a columna
+} else if  ((miTablero[combinacionGanadora[4][0]] === "X") && (miTablero[combinacionGanadora[4][1]] === "X") && (miTablero[combinacionGanadora[4][2]] === "X")){
+    window.location.href= "../pages/winner.html"
+//Cuarta combinacion ganadora 2a columna
+} else if  ((miTablero[combinacionGanadora[4][0]] === "O") && (miTablero[combinacionGanadora[4][1]] === "O") && (miTablero[combinacionGanadora[4][2]] === "O")){
+    window.location.href= "../pages/winner.html"
+    
+//Quinta combinacion ganadora 3a columna
+} else if  ((miTablero[combinacionGanadora[5][0]] === "X") && (miTablero[combinacionGanadora[5][1]] === "X") && (miTablero[combinacionGanadora[5][2]] === "X")){
+    window.location.href= "../pages/winner.html"
+//Quinta combinacion ganadora 3a columna
+} else if  ((miTablero[combinacionGanadora[5][0]] === "O") && (miTablero[combinacionGanadora[5][1]] === "O") && (miTablero[combinacionGanadora[5][2]] === "O")){
+    window.location.href= "../pages/winner.html"
+    
+//Sexta combinacion ganadora diagonal 1
+} else if  ((miTablero[combinacionGanadora[6][0]] === "X") && (miTablero[combinacionGanadora[6][1]] === "X") && (miTablero[combinacionGanadora[6][2]] === "X")){
+    window.location.href= "../pages/winner.html"
+//Sexta combinacion ganadora diagonal 1
+} else if  ((miTablero[combinacionGanadora[6][0]] === "O") && (miTablero[combinacionGanadora[6][1]] === "O") && (miTablero[combinacionGanadora[6][2]] === "O")){
+    window.location.href= "../pages/winner.html"
+//Septima combinacion ganadora diagonal 1
+} else if  ((miTablero[combinacionGanadora[7][0]] === "X") && (miTablero[combinacionGanadora[7][1]] === "X") && (miTablero[combinacionGanadora[7][2]] === "X")){
+    window.location.href= "../pages/winner.html"
+//Septima combinacion ganadora diagonal 1
+} else if  ((miTablero[combinacionGanadora[7][0]] === "O") && (miTablero[combinacionGanadora[7][1]] === "O") && (miTablero[combinacionGanadora[7][2]] === "O")){
+    window.location.href= "../pages/winner.html"}
+}
