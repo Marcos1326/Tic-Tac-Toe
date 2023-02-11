@@ -1,3 +1,14 @@
+/* Container principal */
+.container-tictactoe{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(../img/selva.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* Txt home */
 .col-txt{
     height: 70vh;
@@ -7,7 +18,7 @@
 
 /* Boton inicio juego */
 .col-btn{
-    height: 25vh;
+    height: 13vh;
 }
 
 /* boton  */
@@ -24,9 +35,3 @@
     border: 2px solid black;
 }
 /* Boton inicio juego */
-
-/* Troll  */
-#troll{
-    text-decoration: none;
-    color: black;
-}
