@@ -76,6 +76,7 @@
     width: 30vw;
     border-radius: 50px;
     border: 2px solid black;
+    visibility: hidden;
 }
 
 .boton-start:hover{

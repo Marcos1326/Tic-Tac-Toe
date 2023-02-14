@@ -30,11 +30,26 @@
     margin: 5px;
     cursor: pointer;
     border-radius: 10px;
+    color: transparent;
 }
 
 .casillas:hover{
     scale: 1.05;
     transition: 0.3s;
+}
+
+.Ximg{
+    background-image: url(../img/x.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Oimg{
+    background-image: url(../img/o.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 992px){

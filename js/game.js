@@ -23,7 +23,8 @@ tablero.map(
         celda.addEventListener("click", ()=>{
             if((celda.innerHTML === "") && (turnoP1 > 0 || turnoP2 > 0)){
                 celda.innerHTML = (turno) ? "X" : "O";
-                
+                //pintado de las img
+                celda.classList.add((turno) ? "Ximg" : "Oimg"); 
                 (turno) ? turnoP1-- : turnoP2--;
                 miTablero[celda.id] = (turno) ? "X" : "O";
                 comprueboGanador();
