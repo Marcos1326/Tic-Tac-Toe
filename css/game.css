@@ -25,6 +25,7 @@
     border-radius: 10px;
 }
 
+/* Casillas tablero  */
 .casillas{
     background-color: rgb(5, 115, 119);
     margin: 5px;
@@ -38,6 +39,7 @@
     transition: 0.3s;
 }
 
+/* img X  */
 .Ximg{
     background-image: url(../img/x.png);
     background-position: center;
@@ -45,6 +47,7 @@
     background-repeat: no-repeat;
 }
 
+/* img O  */
 .Oimg{
     background-image: url(../img/o.png);
     background-position: center;
