@@ -1,6 +1,10 @@
 /* Container principal */
 .container-winner{
     height: 100vh;
+        background-image: url(../img/Paisaje2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
 }
 
 /* Titulo juego y enlace a home  */

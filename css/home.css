@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100%;
     text-align: center;
-    background-image: url(../img/selva.png);
+    background-image: url(../img/paisaje.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,6 +13,18 @@
 .col-txt{
     height: 70vh;
     font-size: 100px;
+}
+
+.tic-tac-toe-txt{
+    border-radius: 50px;
+    padding: 40px;
+}
+
+@media (max-width: 992px){
+    .tic-tac-toe-txt{
+    font-size: 85px;
+        padding: 15px;
+    }
 }
 /* Txt home */
 

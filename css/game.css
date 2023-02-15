@@ -1,3 +1,11 @@
+/* Container  */
+.container-game{
+        background-image: url(../img/Paisaje2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
 /* Cabecera (nombre juego) */
 .col-titulo{
     height: 10vh;
@@ -75,6 +83,7 @@
 .nombre{
     height: 100%;
     width: 100%;
+    color: white;
 }
 
 /* Turnos player  */

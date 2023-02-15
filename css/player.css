@@ -1,3 +1,11 @@
+/* Container  */
+.container-player{
+    background-image: url(../img/Paisaje2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* Cabecera (nombre juego) */
 .col-titulo{
     height: 10vh;
