@@ -23,13 +23,26 @@ tablero.map(
         celda.addEventListener("click", ()=>{
             if((celda.innerHTML === "") && (turnoP1 > 0 || turnoP2 > 0)){
                 celda.innerHTML = (turno) ? "X" : "O";
-                //pintado de las img
+
+                // //pintado de las img
                 celda.classList.add((turno) ? "Ximg" : "Oimg"); 
+
                 (turno) ? turnoP1-- : turnoP2--;
                 miTablero[celda.id] = (turno) ? "X" : "O";
                 comprueboGanador();
-                
                 turno = !turno;
+            } else if ((celda.innerHTML === "X") && (turnoP1 === 0) && (turno == true)){
+                celda.innerHTML = "";
+                //Remove img X
+                celda.classList.remove("Ximg");
+                miTablero[celda.id] = "";
+                turnoP1++;
+            } else if ((celda.innerHTML === "O") && (turnoP2 === 0) && (turno == false)){
+                celda.innerHTML = "";
+                //Remove img O
+                celda.classList.remove("Oimg");
+                miTablero[celda.id] = "";
+                turnoP2++;
             }
         })
     }
