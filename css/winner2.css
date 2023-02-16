@@ -21,17 +21,13 @@
 /* winner winner chicken dinner  */
 .col-txt-winner{
     height:25vh;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /* player x win  */
 
 #rex{
     height: 30vh;
-}
-
-.col-player-win{
-    color: white;
 }
 
 /* bnt repeat - home */
@@ -58,5 +54,8 @@
     }
     #rex{
         height: 35vh;
+    }
+    .col-txt-winner{
+        font-size: 40px;
     }
 }
