@@ -47,3 +47,17 @@
     border: 2px solid black;
 }
 /* Boton inicio juego */
+
+/* Boton normas */
+.col-help{
+    height: 17vh;
+}
+
+.dino-help{
+    height: 10vh;
+    width: 10vh;
+    background-image: url(../img/brontohelp.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,66 @@
+/* Container principal */
+.container-reglas{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(../img/paisaje.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Titulo juego + enlace a home  */
+.col-titulo{
+    height: 10vh;
+    font-size: 40px;
+}
+
+.enlace-home{
+    text-decoration: none;
+    color: black;
+}
+
+/* Txt reglas  */
+.col-reglas{
+    height: 80vh;
+}
+
+.caja-reglas{
+    background-color: rgba(128, 128, 128, 0.8);
+    border-radius: 20px;
+    width: 70%;
+    height: 100%;
+}
+
+.txt-reglas{
+    font-size:x-large;
+}
+
+/* Boton home  */
+.col-btn-home{
+    height: 10vh;
+}
+
+.boton-start{
+    height: 5vh;
+    border: 2px solid black;
+}
+
+.boton-start:hover{
+    scale: 1.1;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+
+@media (max-width: 992px){
+    .boton-start{
+        height: 8vh;
+    }
+    .caja-reglas{
+        width: 90%;
+        font-size: larger;
+    }
+    .txt-reglas{
+        font-size:medium;
+    }
+}

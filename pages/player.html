@@ -35,7 +35,7 @@
             </div>
             <!-- Nombre player 1 -->
             <div class="col-7 col-lg-7 col-namep1 d-flex justify-content-center align-items-center">
-                <input name="Player1" type="text" class="form-control nameImput" id="Player1" placeholder="Nombre Player 1" maxlength="10">
+                <input name="Player1" type="text" class="form-control nameImput" id="Player1" placeholder="Nombre Player 1" maxlength="10"  pattern="[A-Za-z0-9]+" required oninput="this.value = this.value.replace(/[^A-Za-z0-9]/g, '')">
             </div>
             <!-- Boton check player 1 -->
             <div class="col col-lg-3 d-flex justify-content-center align-items-center">
@@ -50,7 +50,7 @@
             </div>
             <!-- Nombre player 2 -->
             <div class="col-7 col-lg-7 col-namep2 d-flex justify-content-center align-items-center">
-                <input name="Player2" type="text" class="form-control nameImput" id="Player2" placeholder="Nombre Player 2" maxlength="10">
+                <input name="Player2" type="text" class="form-control nameImput" id="Player2" placeholder="Nombre Player 2" maxlength="10"  pattern="[A-Za-z0-9]+" required oninput="this.value = this.value.replace(/[^A-Za-z0-9]/g, '')">
             </div>
             <!-- Boton check player 2 -->
             <div class="col col-lg-3 d-flex justify-content-center align-items-center">
