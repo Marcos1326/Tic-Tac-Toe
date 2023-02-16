@@ -69,7 +69,7 @@ if ((miTablero[combinacionGanadora[0][0]] === "X") && (miTablero[combinacionGana
 //primera combinacion ganadora 1a fila 
 } else if  ((miTablero[combinacionGanadora[0][0]] === "O") && (miTablero[combinacionGanadora[0][1]] === "O") && (miTablero[combinacionGanadora[0][2]] === "O")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player2").innerHTML));
-    window.location.href= "../pages/winner.html"
+    window.location.href= "../pages/winner2.html"
 //Segunda combinacion ganadora 2a fila
 } else if  ((miTablero[combinacionGanadora[1][0]] === "X") && (miTablero[combinacionGanadora[1][1]] === "X") && (miTablero[combinacionGanadora[1][2]] === "X")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player1").innerHTML));
@@ -77,7 +77,7 @@ if ((miTablero[combinacionGanadora[0][0]] === "X") && (miTablero[combinacionGana
 //Segunda combinacion ganadora 2a fila
 } else if  ((miTablero[combinacionGanadora[1][0]] === "O") && (miTablero[combinacionGanadora[1][1]] === "O") && (miTablero[combinacionGanadora[1][2]] === "O")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player2").innerHTML));
-    window.location.href= "../pages/winner.html"
+    window.location.href= "../pages/winner2.html"
 //Tercera combinacion ganadora 3a fila
 } else if  ((miTablero[combinacionGanadora[2][0]] === "X") && (miTablero[combinacionGanadora[2][1]] === "X") && (miTablero[combinacionGanadora[2][2]] === "X")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player1").innerHTML));
@@ -85,7 +85,7 @@ if ((miTablero[combinacionGanadora[0][0]] === "X") && (miTablero[combinacionGana
 //Tercera combinacion ganadora 3a fila
 }  else if  ((miTablero[combinacionGanadora[2][0]] === "O") && (miTablero[combinacionGanadora[2][1]] === "O") && (miTablero[combinacionGanadora[2][2]] === "O")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player2").innerHTML));
-    window.location.href= "../pages/winner.html"
+    window.location.href= "../pages/winner2.html"
 //Cuarta combinacion ganadora 1a columna
 }  else if  ((miTablero[combinacionGanadora[3][0]] === "X") && (miTablero[combinacionGanadora[3][1]] === "X") && (miTablero[combinacionGanadora[3][2]] === "X")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player1").innerHTML));
@@ -93,7 +93,7 @@ if ((miTablero[combinacionGanadora[0][0]] === "X") && (miTablero[combinacionGana
 //Cuarta combinacion ganadora 1a columna
 } else if  ((miTablero[combinacionGanadora[3][0]] === "O") && (miTablero[combinacionGanadora[3][1]] === "O") && (miTablero[combinacionGanadora[3][2]] === "O")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player2").innerHTML));
-    window.location.href= "../pages/winner.html"
+    window.location.href= "../pages/winner2.html"
 //Cuarta combinacion ganadora 2a columna
 } else if  ((miTablero[combinacionGanadora[4][0]] === "X") && (miTablero[combinacionGanadora[4][1]] === "X") && (miTablero[combinacionGanadora[4][2]] === "X")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player1").innerHTML));
@@ -101,7 +101,7 @@ if ((miTablero[combinacionGanadora[0][0]] === "X") && (miTablero[combinacionGana
 //Cuarta combinacion ganadora 2a columna
 } else if  ((miTablero[combinacionGanadora[4][0]] === "O") && (miTablero[combinacionGanadora[4][1]] === "O") && (miTablero[combinacionGanadora[4][2]] === "O")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player2").innerHTML));
-    window.location.href= "../pages/winner.html"
+    window.location.href= "../pages/winner2.html"
 //Quinta combinacion ganadora 3a columna
 } else if  ((miTablero[combinacionGanadora[5][0]] === "X") && (miTablero[combinacionGanadora[5][1]] === "X") && (miTablero[combinacionGanadora[5][2]] === "X")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player1").innerHTML));
@@ -109,7 +109,7 @@ if ((miTablero[combinacionGanadora[0][0]] === "X") && (miTablero[combinacionGana
 //Quinta combinacion ganadora 3a columna
 } else if  ((miTablero[combinacionGanadora[5][0]] === "O") && (miTablero[combinacionGanadora[5][1]] === "O") && (miTablero[combinacionGanadora[5][2]] === "O")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player2").innerHTML));
-    window.location.href= "../pages/winner.html"
+    window.location.href= "../pages/winner2.html"
 //Sexta combinacion ganadora diagonal 1
 } else if  ((miTablero[combinacionGanadora[6][0]] === "X") && (miTablero[combinacionGanadora[6][1]] === "X") && (miTablero[combinacionGanadora[6][2]] === "X")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player1").innerHTML));
@@ -117,7 +117,7 @@ if ((miTablero[combinacionGanadora[0][0]] === "X") && (miTablero[combinacionGana
 //Sexta combinacion ganadora diagonal 1
 } else if  ((miTablero[combinacionGanadora[6][0]] === "O") && (miTablero[combinacionGanadora[6][1]] === "O") && (miTablero[combinacionGanadora[6][2]] === "O")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player2").innerHTML));
-    window.location.href= "../pages/winner.html"
+    window.location.href= "../pages/winner2.html"
 //Septima combinacion ganadora diagonal 1
 } else if  ((miTablero[combinacionGanadora[7][0]] === "X") && (miTablero[combinacionGanadora[7][1]] === "X") && (miTablero[combinacionGanadora[7][2]] === "X")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player1").innerHTML));
@@ -125,5 +125,5 @@ if ((miTablero[combinacionGanadora[0][0]] === "X") && (miTablero[combinacionGana
 //Septima combinacion ganadora diagonal 1
 } else if  ((miTablero[combinacionGanadora[7][0]] === "O") && (miTablero[combinacionGanadora[7][1]] === "O") && (miTablero[combinacionGanadora[7][2]] === "O")){
     sessionStorage.setItem("NombreGanador", JSON.stringify(document.getElementById("Player2").innerHTML));
-    window.location.href= "../pages/winner.html"}
+    window.location.href= "../pages/winner2.html"}
 }
