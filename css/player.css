@@ -1,5 +1,6 @@
 /* Container  */
 .container-player{
+    height: 100vh;
     background-image: url(../img/Paisaje2.jpg);
     background-position: center;
     background-size: cover;
@@ -29,7 +30,7 @@
 
 /* img personajes  */
 .img-player{
-    height: 20vh;
+    height: 25vh;
     width: 30vw;
     background-position: center;
     background-size: cover;
@@ -46,7 +47,9 @@
         height: 6vh;
         width: 40vw;
     }
-
+    .img-player{
+        height: 20vh;
+    }
     .col-check-btn{
         width: 20vw;
         height: 6vh;
@@ -65,13 +68,13 @@
 }
 
 /* Player 1 */
-.rex{
-    background-image: url(../img/trex.png);
+.trike{
+    background-image: url(../img/trike.png);
 }
 
 /* Player 2 */
-.raptor{
-    background-image: url(../img/raptor.png);
+.rex{
+    background-image: url(../img/trex.png);
 }
 
 /* Boton home */

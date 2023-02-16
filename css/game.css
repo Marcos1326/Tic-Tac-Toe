@@ -1,9 +1,10 @@
 /* Container  */
 .container-game{
-        background-image: url(../img/Paisaje2.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url(../img/Paisaje2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Cabecera (nombre juego) */
@@ -68,12 +69,29 @@
         margin: 2px;
         border: 2px solid black;
     }
+    .nombre{
+        color: white;
+    }
+    .img-player{
+        height: 20vh;
+    }
+}
+
+/* Players grid */
+.players{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5fr 1fr;
+}
+
+.col-player{
+    height: 30vh;
 }
 
 /* Imagenes trex y raptor  */
 .img-player{
-    height: 20vh;
-    width: 30vw;
+    height: 25vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,22 +101,16 @@
 .nombre{
     height: 100%;
     width: 100%;
-    color: white;
-}
-
-/* Turnos player  */
-.turnos{
-    height: 100%;
 }
 
 /* Player 1 */
-.rex{
-    background-image: url(../img/trex.png);
+.trike{
+    background-image: url(../img/trike.png);
     background-size: contain;
 }
 
 /* Player 2 */
-.raptor{
-    background-image: url(../img/raptor.png);
+.rex{
+    background-image: url(../img/trex.png);
     background-size: contain;
 }
