@@ -54,6 +54,8 @@
 }
 
 .dino-help{
+    background-color: rgba(174,118,83,255);
+    border-radius: 50px;
     height: 10vh;
     width: 10vh;
     background-image: url(../img/brontohelp.png);
