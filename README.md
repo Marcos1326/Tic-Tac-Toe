@@ -12,10 +12,10 @@ Durante siglos los dinosaurion han librado una guerra, en la cual destacan dos b
 3. Los turnos seran un total de 3 por jugador una vez acabados podréis mover una de vuestras fichas para intentar ganar.
 
 ## Vistas en Ordenador
-<img src="./img/Portadajuego.png" width="500px"> <img src="./img/Normasjuego.png" width="500px"> <img src="./img/playersjuego.png" width="500px"> <img src="./img/players2juego.png" width="500px"> <img src="./img/tablerojuego.png" width="500px"> <img src="./img/tablero2juego.png" width="500px"> <img src="./img/winner1juego.png" width="500px"> <img src="./img/winner2juego.png" width="500px"> 
+<img src="./img/Portadajuego.png" width="500px"> <img src="./img/playersjuego.png" width="500px"> <img src="./img/players2juego.png" width="500px"> <img src="./img/tablero2juego.png" width="500px"> <img src="./img/winner1juego.png" width="500px"> <img src="./img/winner2juego.png" width="500px"> 
 
 ## Vistas en Nexus 5
-<img src="./img/nex1.png" height="500px"> <img src="./img/nex2.png" height="500px"> <img src="./img/nex3.png" height="500px"> <img src="./img/nex4.png" height="500px"> <img src="./img/nex5.png" height="500px"> <img src="./img/nex6.png" height="500px"> <img src="./img/nex7.png" height="500px"> 
+<img src="./img/nex1.png" height="400px"> <img src="./img/nex2.png" height="400px"> <img src="./img/nex3.png" height="400px"> <img src="./img/nex4.png" height="400px"> <img src="./img/nex5.png" height="400px"> <img src="./img/nex6.png" height="400px"> <img src="./img/nex7.png" height="400px"> 
 
 ## Versiones y problemas
 Actualmente se encuentra en la Version 1.0, principalmete la mayor dificultad a la hora a afrontar este juego fue: el manejo y la lógica detrás de el, el posicionamiento de imágenes y jugabilidad. 
