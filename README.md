@@ -4,6 +4,17 @@ mgh-geekshub-fsd-tictactoe-02022023
 ## Historia
 Durante siglos los dinosaurion han librado una guerra, en la cual destacan dos bandos (Carnívoros y Herbívoros), para saber quien será el ganador de esta dura batalla tendrán que utilizar el ingenio y la estrategia.
 
+## Stack
+<a href="https://developer.mozilla.org/es/docs/Web/CSS">
+    <img src= "https://img.shields.io/badge/css-1D7CF2?style=for-the-badge&logo=css3&logoColor=white"/>
+</a>
+<a href="https://www.w3schools.com/html/">
+    <img src= "https://img.shields.io/badge/html5-1D0CF2?style=for-the-badge&logo=html5&logoColor=white"/>
+</a>
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src= "https://img.shields.io/badge/javascript-EFD81D?style=for-the-badge&logo=javascript&logoColor=black"/>
+</a>
+
 ## Cómo funciona?
 1. Una vez introducido en el juego podrás iniciarlo y comenzar a jugar o ir al apartado de reglas marcada con un pequeño bronto con un interrogante en la parte inferior izquierda de la pantalla.
 
